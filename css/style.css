@@ -39,11 +39,17 @@ section h2
 }
 header .top
 {
-    clear: both;
-    width: 100%;
+    width:750px;
+    height:500px;
     margin: 0 auto;
-    padding: 60px 0;
 }
+
+@media (max-width: 768px){
+header .top{
+        height: 250px;
+    }
+}
+
 header .site-title
 {
     font-size: 1.8rem;
